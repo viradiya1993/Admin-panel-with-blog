@@ -26,11 +26,7 @@
               <!-- User image -->
               <li class="user-header">
                 <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
-
-                <p>
-                  {{ Auth::user()->name }} - Web Developer
-                  <small>Member since {{ Auth::user()->created_at->toFormattedDateString() }}</small>
-                </p>
+                <p>{{ Auth::user()->name }} - Web developer<small>Member since {{ Carbon\Carbon::parse(Auth::user()->created_at)->toFormattedDateString() }}</small></p>
               </li>
               <!-- Menu Footer-->
               <li class="user-footer">
@@ -44,7 +40,7 @@
                           Logout
                       </a>
 
-                      <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                      <form id="logout-form" action="{{ route('admin.logout') }}" method="POST" style="display: none;">
                           {{ csrf_field() }}
                       </form>
                 </div>
