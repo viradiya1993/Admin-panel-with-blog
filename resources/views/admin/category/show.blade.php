@@ -6,18 +6,7 @@
 @section('main-content')
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
-  <!-- Content Header (Page header) -->
-  <section class="content-header">
-    <h1>
-      Blank page
-      <small>it all starts here</small>
-    </h1>
-    <ol class="breadcrumb">
-      <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-      <li><a href="#">Examples</a></li>
-      <li class="active">Blank page</li>
-    </ol>
-  </section>
+  
 
   <!-- Main content -->
   <section class="content">
@@ -25,7 +14,7 @@
     <!-- Default box -->
     <div class="box">
       <div class="box-header with-border">
-        <h3 class="box-title">Title</h3>
+        <h3 class="box-title">Category</h3>
         <a class='col-lg-offset-5 btn btn-success' href="{{ route('category.create') }}">Add New</a>
         <div class="box-tools pull-right">
           <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
@@ -45,7 +34,7 @@
                         <thead>
                         <tr>
                           <th>S.No</th>
-                          <th>Tag Name</th>
+                          <th>Category Name</th>
                           <th>Slug</th>
                           <th>Edit</th>
                           <th>Delete</th>
@@ -80,7 +69,7 @@
                         <tfoot>
                         <tr>
                           <th>S.No</th>
-                          <th>Tag Name</th>
+                          <th>Category Name</th>
                           <th>Slug</th>
                           <th>Edit</th>
                           <th>Delete</th>

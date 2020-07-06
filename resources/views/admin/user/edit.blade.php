@@ -3,15 +3,6 @@
 @section('main-content')
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
-    <!-- Content Header (Page header) -->
-    <section class="content-header">
-      @include('admin.layouts.pagehead')
-      <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li><a href="#">Forms</a></li>
-        <li class="active">Editors</li>
-      </ol>
-    </section>
 
     <!-- Main content -->
     <section class="content">
