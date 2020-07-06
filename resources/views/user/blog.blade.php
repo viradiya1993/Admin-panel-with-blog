@@ -1,7 +1,7 @@
 @extends('user/app')
 
 @section('bg-img',asset('user/img/home-bg.jpg'))
-@section('title','Bitfumes Blog')
+@section('title','Viradiya Blog')
 @section('sub-heading','Learn Together and Grow Together')
 @section('head')
 <meta name="csrf-token" content="{{ csrf_token() }}">
